@@ -1,6 +1,6 @@
 # Quiz App
 
-A Quiz app, where we can see a list of questions. By clicking on a question detailed parts of question is shown.  
+A Quiz app, where we can see a list of questions. By clicking on a question, details of question is shown.  
 The quiz has 30 mcq questions.  
 Each question has two answers true or false.  
 RecyclerView is used to show the list of questions. Fragments are used to show detailed question part.  
