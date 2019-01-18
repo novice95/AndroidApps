@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UserDetails_A1_MT17068">
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="23dp"
+            android:text="Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/RollNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/Name"
+            android:layout_marginTop="65dp"
+            android:textStyle="bold"
+            android:text="Roll No." />
+
+        <TextView
+            android:id="@+id/Branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/et_branch"
+            android:layout_alignStart="@+id/Name"
+            android:text="Branch"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Course1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/et_course1"
+            android:layout_alignStart="@+id/Name"
+            android:text="Course 1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Course2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/et_course2"
+            android:layout_alignStart="@+id/Name"
+            android:textStyle="bold"
+            android:text="Course 2" />
+
+        <TextView
+            android:id="@+id/Course3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/et_course3"
+            android:layout_alignStart="@+id/Name"
+            android:text="Course 3"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Course4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/et_course4"
+            android:layout_alignStart="@+id/Name"
+            android:textStyle="bold"
+            android:text="Course 4" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_alignBaseline="@+id/Name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="49dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_roll_no"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:maxLength="7"
+            android:layout_alignBaseline="@+id/RollNo"
+            android:layout_alignStart="@+id/et_name"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_branch"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/et_name"
+            android:layout_below="@+id/et_roll_no"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_course1"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/et_name"
+            android:layout_below="@+id/et_branch"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_course2"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/et_name"
+            android:layout_below="@+id/et_course1"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_course3"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/et_name"
+            android:layout_below="@+id/et_course2"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_course4"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/et_name"
+            android:layout_below="@+id/et_course3"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="93dp"
+            android:layout_toEndOf="@+id/Name"
+            android:textStyle="bold"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/submit"
+            android:layout_marginEnd="88dp"
+            android:text="Clear"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
